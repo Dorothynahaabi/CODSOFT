@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+header {
+    background-color: #f3410a;
+    color: #42119c;
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.flex-container{
+    display: flex;
+    
+}
+.flex-container div{
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+.flex2-container{
+    display: flex;
+}
+.flex2-container div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #c40d25;
+    color: #111010;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo img {
+    width: 60px; /* Adjust the max-width as needed */
+}
+
+.about-content {
+    
+    align-items: center;
+    align-content: center;
+    width: 300px;
+    flex-basis: 500px;
+}
+
+.about-content img {
+    border-radius: 50%; /* Creates a circular image; adjust as needed */
+    float: left; 
+    margin-right: 20px;
+}
+.about-content p{
+    float: right;
+}
+
+.project img {
+    max-width: 100%; /* Make project images responsive */
+}
+
+#resume a {
+    color: #333;
+    text-decoration: underline;
+}
+#skills{
+    
+    font-weight: 100;
+    font-size: medium;
+}
+#skills img{
+    width: 60px;
+    float: left;
+}
+.styled-button{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.styled-button:hover{
+    background-color: #45a049;
+}
+#contact a{
+   color: #0e0503; 
+}
+#contact a:hover{
+    color: red;
+}
