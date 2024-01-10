@@ -1,125 +1,113 @@
-
-
-body {
-    font-family: 'Arial', sans-serif;
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: bisque;
 }
-p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
-header {
-    background-color: #f3410a;
-    color: #42119c;
+.hero{
+    position: relative;
     text-align: center;
-    padding: 10px;
-}
 
-section {
-    margin: 20px;
 }
-
-h2 {
-    color: #333;
+.hero img{
+    width: 1500px;
+    height: 400px;
+    background-image: linear-gradient(rgba(48, 38, 38, 0.5), rgba(0, 0, 0, 0,5));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-.flex-container{
-    display: flex;
-    
-}
-.flex-container div{
-    background-color: aqua;
-    margin: 10px;
-    padding: 20px;
-    font-size: 15px;
-}
-.flex2-container{
-    display: flex;
-}
-.flex2-container div{
-    margin: 10px;
-    padding: 20px;
-    font-size: 15px;
-}
-
-footer {
-    background-color: #c40d25;
-    color: #111010;
+.hero-content{
+    position: absolute;
+    color: rgb(8, 4, 4);
     text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero h1{
+    display: inline;
     padding: 10px;
-    bottom: 0;
-    width: 100%;
-}
-
-.logo img {
-    width: 60px; /* Adjust the max-width as needed */
-}
-
-.about-content {
+    font-size: 3em;
     
-    align-items: center;
-    align-content: center;
-    width: 300px;
-    flex-basis: 500px;
+    text-align: left;
 }
-
-.about-content img {
-    border-radius: 50%; /* Creates a circular image; adjust as needed */
-    float: left; 
-    margin-right: 20px;
-}
-.about-content p{
-    float: right;
-}
-
-.project img {
-    max-width: 100%; /* Make project images responsive */
-}
-
-#resume a {
-    color: #333;
-    text-decoration: underline;
-}
-#skills{
+.hero h2{
     
-    font-weight: 100;
-    font-size: medium;
+    padding: 10px;
+    text-align: center;
 }
-#skills img{
-    width: 60px;
-    float: left;
+.hero p{
+    position: relative;
+    
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0 0;
 }
-.styled-button{
-    background-color: brown;
-    color: white;
-    padding: 10px 20px;
+.hero button{
+    background-color: #697772;
+    margin-right: 5px;
+    border: 30px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 5px;
-    border: none;
     cursor: pointer;
 }
-.styled-button:hover{
-    background-color: #45a049;
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+} 
+ h3{
+    text-align: center;
 }
-#contact a{
-   color: #0e0503; 
+.Profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    text-align: center;
+    font-weight: 200;
+    background-color: rgb(121, 15, 56);
 }
-#contact a:hover{
-    color: red;
+.Profile h4{
+    top: 5px;
+    text-align: center;
+}
+.Profile img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.success{
+    background-color: bisque;
+    padding: 14px;
+    text-align: center;
+}
+.success img{
+    border-radius: 50%;
+}
+.love{
+    text-align: center;
+    background-color: rgb(121, 15, 56);
+    padding: 20px;
+}
+.love button{
+    background-color: #7c8d87;
+    margin-right: 5px;
+    border: 30px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-weight: 200;
 }
